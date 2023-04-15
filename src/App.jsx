@@ -45,7 +45,7 @@ function App() {
           <div className="header-inner">
             <div className="header-logo">
               <img src={Logo} alt="" />
-              <img src={LogoTitle} alt="" />
+              <img className='logo-title' src={LogoTitle} alt="" />
             </div>
             <div className="header-menu-list">
               <ul>

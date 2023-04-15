@@ -47,6 +47,7 @@ ul > li:hover{
     margin: auto;
 }
 
+
 /* HEADER */
 
 .header{
@@ -922,5 +923,41 @@ footer > span{
     }
     .frame-left > P{
         width: 177px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-title{
+        display: none;
+    }
+    .second-block-above > h2{
+        width: 315px;
+    }
+    .third-block-inner{
+        padding-left: 15px;
+    }
+    .fourth-block-inner{
+        padding-left: 25px;
+    }
+    .fifth-block-inner{
+        padding-left: 10px;
+    }
+    .six-block-above > p{
+        transform: translateX(25px);
+    }
+    .rewiev-block-title > P{
+        transform: translateX(30px);
+    }
+    .footer-sides{
+        gap: 35px;
+    }
+    .footer-left{
+        gap: 28px;
+    }
+    .third-block-left > p{
+        width: 425px;
+    }
+    .fifth-block-left > p{
+        width: 430px;
     }
 }
