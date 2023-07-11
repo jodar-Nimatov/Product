@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
-
-
 *{
     margin: 0px;
     padding: 0;
@@ -906,6 +904,9 @@ footer > span{
     .second-block{
         height: 1055px;
     }
+    .second-block-above > h2{
+        width: 320px;
+    }
     .second-block-bellow{
         gap: 50px;
         display: flex;
@@ -959,5 +960,17 @@ footer > span{
     }
     .fifth-block-left > p{
         width: 430px;
+    }
+}
+
+@media (max-width: 475px) {
+    .frs-block-left{
+        padding-left: 24px;
+    }
+    .fourth-block-right{
+        padding-left: 45px;
+    }
+    .post-block-title{
+        transform: translateX(68px);
     }
 }
